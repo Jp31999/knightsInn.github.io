@@ -1,0 +1,187 @@
+body{
+    background-color :white;
+}
+.h1{
+    color:black;
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+}
+#logo{
+  border-radius: 50%;
+  position: absolute;
+  text-align: right;
+  left:80%;
+  top:4%;
+}
+  
+/* Add a black background color to the top navigation */
+.hnav {
+    background-color: #333;
+    overflow: hidden;
+}
+  .hnav .searchcontainer {
+    float :right;
+}
+
+  /* Style the links inside the navigation bar */
+  .hnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    word-spacing: 35px;
+    font-style: italic;
+    
+   
+}
+  
+  /* Change the color of links on hover */
+  .hnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+  /* Add a color to the active/current link */
+  .hnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+   #search {
+   
+    float: left;
+    border-top: 15%;
+    margin-top: 5%;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+#submit {
+    border-top: 15%;
+    float: left;
+    border-top: 15%;
+    margin-top: 5%;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+}
+
+
+
+  .searchcontainer .search {
+   position: relative;
+   top :25px;
+   left:70px;
+}
+  
+  .hnav .search-container button:hover {
+    background: #ccc;
+}
+ 
+  
+
+ 
+.locality{
+  position: absolute;
+  left : 10%;
+  top : 180%;
+  font-size: 35px;
+  color: black;
+}
+ .ldetail{
+  position: absolute;
+  left : 3%;
+  top : 190%;
+  font-size: 25px;
+  color: black;
+}
+  #contact{
+  position: absolute;
+  left : 45%;
+  top : 180%;
+  font-size: 35px;
+  color: black;
+}
+.cdetail{
+  position: absolute;
+  left : 43%;
+  top : 190%;
+  font-size: 25px;
+  color: black;
+}
+.followus{
+  position: absolute;
+  left : 75%;
+  top : 180%;
+  font-size: 35px;
+  color:black;
+}
+.about1{
+  position: absolute;
+  font-size:20px;
+  text-align: center;
+  color:black;
+  font-style: italic;
+  left:3%;
+  top:120%;
+  font-weight: bold;
+  
+}
+.about2{
+  position: absolute;
+  font-size:20px;
+  text-align: center;
+  color:black;
+  font-style: italic;
+  left:2%;
+  top:130%;
+  font-weight: bold;
+}
+
+#slideshow {
+  margin: 80px auto;
+  position: relative;
+  width: 600px;
+  height: 400px;
+  padding: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+#slideshow > div {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+}
+
+.followimg{
+  position: absolute;
+  left:78%;
+  top:193%;
+  width:15%;
+  height: 15%;
+ 
+}
+#menu1{
+  position: absolute;
+  left:5%;
+  top:153%;
+}
+#menu2{
+  position: absolute;
+  left:38%;
+  top:153%;
+}
+#menu3{
+  position: absolute;
+  left:68%;
+  top:153%;
+}
+
